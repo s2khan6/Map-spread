@@ -1,0 +1,34 @@
+
+
+.tableWrapper {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: white;
+  padding: 20px;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.cell {
+  border-radius: 8px;
+  background-color: #e2e8f0; /* Tailwind bg-gray-200 */
+  height: 24px;
+}
+
+.roundCell {
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  background-color: #cbd5e0; /* Tailwind bg-gray-300 */
+}
